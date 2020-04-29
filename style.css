@@ -1,0 +1,16 @@
+.book-img{
+    width: 150px;
+    height: 225px;
+}
+.book{
+    display: inline-block;
+}
+.series-title{
+    display: block;
+}
+.title{
+    display: block;
+}
+.shopping{
+    display: block
+}
