@@ -1,16 +1,61 @@
+*{
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0, .3);
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
 .book-img{
     width: 150px;
     height: 225px;
 }
 .book{
     display: inline-block;
+    margin-right: 1em;
 }
 .series-title{
-    display: block;
+    text-align: center;
 }
 .title{
     display: block;
 }
 .shopping{
     display: block
+}
+.navbar{
+    text-align: center;
+    font-size: 1.2em
+}
+.navbar li{
+    display: inline;
+    padding: 0 5%;
+}
+.navbar a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: rgba(252, 113, 0, 0.363)
+}
+
+.shopping button{
+    color:black;
+    float: right;
+}
+.main-section{
+    margin: 1em;
+    padding: 1em;
 }
